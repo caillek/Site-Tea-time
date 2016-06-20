@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #8e694f;
+}
+
+.container {
+    width: 1240px;
+    font-family: Georgia;
+    background-color: #82c46c;
+    border-left: #63A763 3px solid;
+    border-right: #63A763 3px solid;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+#intro {
+    text-align: center;
+    color: white;
+}
+
+#intro h4 {
+    color: white;
+}
+
+.citation {
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+}
+
+
+/*  TITRES */
+
+h4 {
+    color: #88af00;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+}
+
+.violet {
+    color: #414240;
+    font-weight: bold;
+}
+
+h2 {
+    color: #d9d9cc;
+}
+
+
+/* SLIDER */
+
+#slider2 {
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    margin-left: 5px;
+    color: black;
+}
+
+
+/* styliser le texte dans le carrousel */
+.carousel-caption {
+    color: #2f2d2b;
+}
+
+.carousel-caption h2 {
+    color: #8e694f;
+    font-family: 'Bad Script', cursive;
+}
+
+#slider2 .glyphicon-chevron-right {
+    color: seagreen;
+}
+
+
+#cita {
+    background-color: white;
+    border-bottom: 5px solid #63A763;
+}
+
+#cita p {
+    padding-top: 50px;
+}
+
+
+
+
+/* MENU DU HAUT */
+
+#menu ul {
+    background-color: #8e694f;
+    text-align: center;
+    color: white;
+    font-size: 1.250em;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#menu ul li {
+    list-style-type: none;
+    display: inline-flex;
+    color: white;
+    font-size: 0.938em;
+    background-color: #8e694f;
+    padding: 0.625em;
+    padding-left: 1.000em;
+    padding-right: 1.000em;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: #d94c3a;
+}
+
+
+/* ARTCILES */
+
+#section {
+    margin-left: 0;
+    /* margin-right: 0;*/
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.articles {
+    margin-top: 30px;
+    margin-bottom: 0.938em;
+    padding-left: 0;
+    text-align: center;
+}
+
+#section article div {
+    background-color: #fffdd6;
+}
+
+.articles p {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.articles a {
+    text-decoration: none;
+    color: white;
+    background-color: #8e694f;
+    text-align: center;
+    padding: 0.3125em;
+    padding-right: 0.625em;
+    padding-left: 0.625em;
+    margin-top: 0.625em;
+    margin-bottom: 0;
+    display: block;
+}
+
+.articles a:hover {
+    background-color: #88ad02;
+}
+
+.articles img {
+    width: 100%;
+}
+
+
+/* FOOTER  */
+
+#menupied ul li {
+    list-style-type: none;
+    padding: 0.625em;
+    border-right: 1px solid white;
+}
+
+#menupied ul li a {
+    color: white;
+}
+
+
+/* RESEAUX FOOTER */
+
+#reseaux {
+    text-align: center;
+}
+
+#reseaux img {
+    display: inline-flex;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#reseaux a {
+    color: white;
+    margin-right: 20px;
+}
+
+#facebook:hover {
+    background-image: url(images/facebookhover.png);
+}
+
+#infoslegales {
+    color: white;
+    border-top: 1px solid white;
+}
+
+
+/* MENU BURGER MOBILE */
+
+#myNavbar {
+    text-align: right;
+}
+
+#myCarousel .carousel-control {
+    background-image: none;
+}
+
+.ombrage {
+    text-shadow: 1px 1px 1px black;
+}
